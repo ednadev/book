@@ -171,10 +171,10 @@
 	    })
 	    
 	    // 네이버
-	    var naver_id_login = new naver_id_login("rhm8t7x8h2VCZJK_g7iT", "http://127.0.0.1:7777/callback.html");
+	    var naver_id_login = new naver_id_login("rhm8t7x8h2VCZJK_g7iT", "https://ednadev.github.io/book/callback.html");
         var state = naver_id_login.getUniqState();
         naver_id_login.setButton("green", 2, 40);
-        naver_id_login.setDomain("http://127.0.0.1:7777");
+        naver_id_login.setDomain("https://ednadev.github.io");
         naver_id_login.setState(state);
         naver_id_login.init_naver_id_login();
 
